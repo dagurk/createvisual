@@ -192,10 +192,11 @@ main {
 	}
 	
 .logo {
-	position: absolute;
+	position: fixed;
 	left: 50%;
 	margin-left: -84px;
 	top: 0;
+	z-index: 40;
 	
 	width: 168px;
 	height: 126px;
