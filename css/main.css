@@ -268,7 +268,7 @@ main {
 }
 
 /* Slide 2 */
-#slide-2 .bcg {background-image:url('../img/Page_2.png')}
+#slide-2 .bcg {background-image:url('../img/bg2.png')}
 #slide-2 .hsContent {
     top: 10%;
 }
@@ -278,7 +278,7 @@ main {
 }
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/Page_3.png')}
+#slide-3 .bcg {background-image:url('../img/bg3.png')}
 #slide-3 .hsContent {
 	margin-left: -239px;
 }
