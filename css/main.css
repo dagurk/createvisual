@@ -212,7 +212,7 @@ main {
 	position: relative;
 	width: 1020px;
 	left: 50%;
-	top: 60%;
+	top: 70%;
 	margin-left: -509px;
 }
 	#sponsorBox  h2 {
@@ -228,7 +228,7 @@ main {
 	position: relative;
 	width: 1020px;
 	left: 50%;
-	top: 20%;
+	top: 28%;
 	margin-left: -509px;
 }
 	#vidBox  h2 {
@@ -256,7 +256,7 @@ main {
 .n07 { background-image: url(../img/n/07.png); }
 
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('../img/Page_1.png')}
+#slide-1 .bcg {background-image:url('../img/bg1.png')}
 #slide-1 .logo {  }
 #slide-1 .hsContent {
 	top: 30%;
@@ -269,7 +269,6 @@ main {
 /* Slide 2 */
 #slide-2 .bcg {background-image:url('../img/Page_2.png')}
 #slide-2 .hsContent {
-
     top: 10%;
 }
 #slide-2 h2 {
