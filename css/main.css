@@ -119,6 +119,13 @@ body {
 }
 h2 {
 	margin-top: 0;
+
+	color: #fff8de;
+	font-size: 16px;
+	margin-bottom: 0px;
+	
+	font-weight: bold;
+	letter-spacing: 3px;
 }
 .loading {
 	background: url('../img/ico_loading.gif') no-repeat center center;
@@ -188,34 +195,69 @@ main {
 	position: absolute;
 	left: 50%;
 	margin-left: -84px;
-	top: 10%;
+	top: 0;
 	
 	width: 168px;
 	height: 126px;
-	background-image:url('../img/Page1_header.png');
+	background-image:url('../img/Createlogo_black.png');
 }
 
 .centerContent {
 	position: relative;
-	
-	
-
 	width: 500px;
 	margin-left: -250px;
 }
 
+#sponsorBox {
+	position: relative;
+	width: 1020px;
+	left: 50%;
+	top: 60%;
+	margin-left: -509px;
+}
+	#sponsorBox  h2 {
+		margin-bottom: 8px;
+	}
+	#sponsorBox .sContainer {
+		width: 253px;
+		padding-right: 2px;
+		float: left;
+	}
+
+#vidBox {
+	position: relative;
+	width: 1020px;
+	left: 50%;
+	top: 20%;
+	margin-left: -509px;
+}
+	#vidBox  h2 {
+		margin-bottom: 8px;
+	}
+	#vidBox .vContainer {
+		width: 253px;
+		padding-right: 2px;
+		padding-bottom: 2px;
+		float: left;
+	}
+
+	
 #welcome {
 	color: #000;
 	background-color: rgba(255,255,255,0.4);
-	padding: 10px 10px;
+	padding: 20px 35px ;
 	margin-bottom: 12px;
-	text-align: justify;
+	text-align: center;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 13px;
 }
+
+/* classes for number overlay (videos) */
+.n07 { background-image: url(../img/n/07.png); }
 
 /* Slide 1 */
 #slide-1 .bcg {background-image:url('../img/Page_1.png')}
+#slide-1 .logo {  }
 #slide-1 .hsContent {
 	top: 30%;
 }
@@ -227,12 +269,12 @@ main {
 /* Slide 2 */
 #slide-2 .bcg {background-image:url('../img/Page_2.png')}
 #slide-2 .hsContent {
-    margin-left: -450px;
-    top: auto;
+
+    top: 10%;
 }
 #slide-2 h2 {
-    position: fixed;
-    top: 70%;
+	text-align: center;
+	color: #000;
 }
 
 /* Slide 3 */
