@@ -236,6 +236,7 @@ main {
 		margin-bottom: 8px;
 	}
 	#vidBox .vContainer {
+		position: relative;
 		width: 253px;
 		padding-right: 2px;
 		padding-bottom: 2px;
@@ -254,7 +255,17 @@ main {
 }
 
 /* classes for number overlay (videos) */
-.n07 { background-image: url(../img/n/07.png); }
+.vContainer .n { z-index: 0; position: absolute; top: 0; left: 0; width: 253px; height: 142px; }
+
+.vContainer .n07 { background: url(../img/n/07.png) center no-repeat; }
+.vContainer .n09 { background: url(../img/n/09.png) center no-repeat; }
+.vContainer .n11 { background: url(../img/n/11.png) center no-repeat; }
+.vContainer .n14 { background: url(../img/n/14.png) center no-repeat; }
+.vContainer .n16 { background: url(../img/n/16.png) center no-repeat; }
+.vContainer .n18 { background: url(../img/n/18.png) center no-repeat; }
+.vContainer .n21 { background: url(../img/n/21.png) center no-repeat; }
+.vContainer .n23 { background: url(../img/n/23.png) center no-repeat; }
+.vContainer .n25 { background: url(../img/n/25.png) center no-repeat; }
 
 /* Slide 1 */
 #slide-1 .bcg {background-image:url('../img/bg1.png')}
