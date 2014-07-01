@@ -265,6 +265,7 @@ main {
 #slide-1 h2 {
 	text-align: center;
 	color: #fff;
+		text-shadow: 1px 0px 0px black;
 }
 
 /* Slide 2 */
@@ -275,6 +276,7 @@ main {
 #slide-2 h2 {
 	text-align: center;
 	color: #000;
+	text-shadow: 1px 0px 0px white;
 }
 
 /* Slide 3 */
