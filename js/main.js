@@ -49,7 +49,7 @@
 		} 
 	    
 	    // Resize our slides
-	    $slide.height(winH+60);
+	    $slide.height(winH+90);
 	    
 	    // Refresh Skrollr after resizing our sections
 	    s.refresh($('.homeSlide'));
