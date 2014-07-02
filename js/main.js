@@ -55,5 +55,15 @@
 	    s.refresh($('.homeSlide'));
 	    
 	}
+	
+	$(window).scroll(function (event) {
+		var y = $(this).scrollTop();
+		if (y >= 150) {
+			$('.logo').addClass('smallerLogo');
+		}
+		else {
+			$('.logo').removeClass('smallerLogo');
+		}
+	});
 		
 } )( jQuery );
