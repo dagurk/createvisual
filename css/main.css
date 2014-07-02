@@ -241,6 +241,13 @@ main {
 		padding-right: 2px;
 		padding-bottom: 2px;
 		float: left;
+		
+	  -webkit-transition: all 1s ease;
+		 -moz-transition: all 1s ease;
+		   -o-transition: all 1s ease;
+		  -ms-transition: all 1s ease;
+			  transition: all 1s ease;
+
 	}
 
 	
@@ -255,7 +262,14 @@ main {
 }
 
 /* classes for number overlay (videos) */
-.vContainer .n { z-index: 0; position: absolute; top: 0; left: 0; width: 253px; height: 142px; }
+.vContainer .n { 
+	z-index: 10; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 253px; 
+	height: 142px; 
+}
 
 .vContainer .n07 { background: url(../img/n/07.png) center no-repeat; }
 .vContainer .n09 { background: url(../img/n/09.png) center no-repeat; }
@@ -267,18 +281,28 @@ main {
 .vContainer .n23 { background: url(../img/n/23.png) center no-repeat; }
 .vContainer .n25 { background: url(../img/n/25.png) center no-repeat; }
 
-.tooltip {
-	display:none;
-	position:absolute;
-	border:1px solid #333;
-	background-color:#161616;
-	border-radius:5px;
-	padding:10px;
-	color:#fff;
-	font-size:13px;
+/* Hoover overlay in video calendar */
+
+.vOverlay {
+	display:none; 
+	z-index: 11;
+	position: absolute;
+	top: 0;
+	left: 0; 
+	width: 253px; 
+	height: 142px;
+	background: #000;
+	opacity:0.6;
+	
 	text-align: center;
 }
+	.vOverlay h3 { color: #fff; }
+	.vOverlay p { color: #fff; }
+	
+.vContainer:hover .vOverlay, .vContainer.hover .vOverlay { display: block; }
+.vContainer:hover { -webkit-filter: grayscale(100%); }
 
+	
 /* Slide 1 */
 #slide-1 .bcg {background-image:url('../img/bg1.png')}
 #slide-1 .logo {  }
@@ -312,18 +336,7 @@ main {
 		background-color: rgba(0,0,0,0.6);
 	}
 
-/* Slide 4 */
-#slide-4 .bcg {background-image:url('../img/bcg_slide-4.jpg')}
-#slide-4 .hsContent {
-    margin-left: -450px;
-    position: fixed;
-    top: 250px;
-}
-#slide-4 h2 {
-    background: none;
-    padding-left: 0;
-    padding-right: 0;
-}
+
 
 /* ==========================================================================
    Helper classes
