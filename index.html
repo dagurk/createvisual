@@ -96,7 +96,7 @@
 						<div id="vidBox">
 							<h2>Create Video Calendar</h2>
 							<div class="vContainer">
-								<img src="img/vidCal/moment_ep1.png" />
+								<a href="http://vimeopro.com/createvisual/moment" target="_blank" class="masterTooltip" title="Moment <br /> Moment by definition is a very brief period of time."><img src="img/vidCal/moment_ep1.png" /></a>
 							</div>
 							<div class="vContainer">
 								<img src="img/vidCal/Vision_ep1.png" />
@@ -109,9 +109,9 @@
 							</div>
 							<!-- -->
 							<div class="vContainer">
-								<img src="img/vidCal/instorage_ep1.png" />
+								<img src="img/vidCal/instorage_ep1.png" class="masterTooltip" title="Happy <br /> asdasd" />
 							</div>
-							<div class="vContainer">
+							<div class="vContainer masterTooltip" title="Happy">
 								<img src="img/vidCal/happy_ep1.png" />
 								<div class="n n11"></div>
 							</div>
@@ -176,5 +176,28 @@
         <script src="js/skrollr.js"></script>
         <script src="js/main.js"></script>
 
+		<script type="text/javascript">
+			$(document).ready(function() {
+			// Tooltip only Text
+			$('.masterTooltip').hover(function(){
+					// Hover over code
+					var title = $(this).attr('title');
+					$(this).data('tipText', title).removeAttr('title');
+					$('<p class="tooltip"></p>')
+					.html(title)
+					.appendTo('body')
+					.fadeIn('slow');
+			}, function() {
+					// Hover out code
+					$(this).attr('title', $(this).data('tipText'));
+					$('.tooltip').remove();
+			}).mousemove(function(e) {
+					var mousex = e.pageX + 20; //Get X coordinates
+					var mousey = e.pageY + 10; //Get Y coordinates
+					$('.tooltip')
+					.css({ top: mousey, left: mousex })
+			});
+			});
+		</script>
     </body>
 </html>
