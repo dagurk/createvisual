@@ -194,13 +194,13 @@ main {
 .logo {
 	position: absolute;
 	left: 50%;
-	margin-left: -113px;
-	top: 10%;
+	margin-left: -244px;
+	top: 17%;
 	z-index: 100;
 	
-	width: 226px;
-	height: 171px;
-	background-image:url('../img/Createlogo_black_l.png');	
+	width: 489px;
+	height: 367px;
+	background-image:url('../img/logo_big.png');	
 }
 	
 .smallerLogo {
@@ -220,12 +220,22 @@ main {
 	width: 500px;
 	margin-left: -250px;
 }
+#welcome {
+	color: #000;
+	background-color: rgba(255,255,255,0.4);
+	padding: 20px 35px ;
+	margin-bottom: 12px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+}
+
 
 #sponsorBox {
 	position: relative;
 	width: 1020px;
 	left: 50%;
-	top: 70%;
+	top: 40%;
 	margin-left: -509px;
 }
 	#sponsorBox  h2 {
@@ -262,16 +272,31 @@ main {
 
 	}
 
-	
-#welcome {
-	color: #000;
-	background-color: rgba(255,255,255,0.4);
-	padding: 20px 35px ;
+.aboutLinkBox {
+	position: relative;
+	width: 1020px;
 	margin-bottom: 12px;
-	text-align: center;
+	text-align: left;
 	font-weight: bold;
 	font-size: 13px;
 }
+
+	.aboutLinkRow {
+		background-color: rgba(255,255,255,0.4);
+		position: relative;
+		width: 25%;
+		float: left;
+		padding: 20px 0;
+		margin-top: 20px;
+	}
+	.aboutLinkRow a {
+		color: #000;
+		display: block;
+		padding: 5px 0 5px 73px;
+		text-decoration: none;
+		font-size: 20px;
+		font-weight: bold;
+	}
 
 /* classes for number overlay (videos) */
 .vContainer .n { 
@@ -319,12 +344,12 @@ main {
 #slide-1 .bcg {background-image:url('../img/bg1.png')}
 #slide-1 .logo {  }
 #slide-1 .hsContent {
-	top: 40%;
+	top: 60%;
 }
 #slide-1 h2 {
 	text-align: center;
 	color: #fff;
-		text-shadow: 1px 0px 0px black;
+	text-shadow: 1px 0px 0px black;
 }
 
 /* Slide 2 */
@@ -341,11 +366,13 @@ main {
 /* Slide 3 */
 #slide-3 .bcg {background-image:url('../img/bg3_1100.png')}
 #slide-3 .hsContent {
-	margin-left: -239px;
+	top: 20%;
 }
 	#slide-3 h2 {
-		color: #f2ead6;
-		background-color: rgba(0,0,0,0.6);
+		text-align: center;
+		color: #fff;
+		text-shadow: 1px 0px 0px black;
+
 	}
 
 
