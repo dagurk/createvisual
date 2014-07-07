@@ -59,10 +59,10 @@
 	$(window).scroll(function (event) {
 		var y = $(this).scrollTop();
 		if (y >= 1) {
-			$('.logo').addClass('smallerLogo');
+			$('.logo').animate().addClass('smallerLogo');
 		}
 		else {
-			$('.logo').removeClass('smallerLogo');
+			$('.logo').animate().removeClass('smallerLogo');
 		}
 	});
 		

@@ -118,13 +118,13 @@ body {
 	padding-top: 106px;
 }
 h2 {
-	font-family: 'Anton', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-top: 0;
 
 	color: #fff8de;
-	font-size: 16px;
+	font-size: 18pt;
 	margin-bottom: 0px;
-	font-weight: normal;
+	font-weight: extra-bold;
 	letter-spacing: 2px;
 }
 .loading {
@@ -368,7 +368,9 @@ main {
 }
 #slide-2 h2 {
 	text-align: center;
-	color: #000;
+	color: #fff;
+	font-weight: normal;
+	font-size: 20pt;
 }
 
 /* Slide 3 */
