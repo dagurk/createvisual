@@ -58,7 +58,7 @@
 	
 	$(window).scroll(function (event) {
 		var y = $(this).scrollTop();
-		if (y >= 0) {
+		if (y >= 1) {
 			$('.logo').addClass('smallerLogo');
 		}
 		else {

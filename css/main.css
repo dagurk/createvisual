@@ -224,14 +224,15 @@ main {
 	text-transform:uppercase;
 }
 .welcomeText h2 {
-	padding:   20px ;
+	padding: 30px 10px 0 10px ;
 	text-align: center;
 	color: #fff;
 	font-size: 19pt;
-	font-weight: normal;
+	font-weight: extra-bold;
+	letter-spacing: 1px;
 }
 .welcomeText p {
-	padding: 20px 65px 20px 65px ;
+	padding: 10px 65px 20px 65px ;
 	margin-bottom: 12px;
 	text-align: center;
 	font-weight: bold;
