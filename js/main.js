@@ -58,7 +58,7 @@
 	
 	$(window).scroll(function (event) {
 		var y = $(this).scrollTop();
-		if (y >= 350) {
+		if (y >= 0) {
 			$('.logo').addClass('smallerLogo');
 		}
 		else {
