@@ -118,14 +118,14 @@ body {
 	padding-top: 106px;
 }
 h2 {
+	font-family: 'Anton', sans-serif;
 	margin-top: 0;
 
 	color: #fff8de;
 	font-size: 16px;
 	margin-bottom: 0px;
-	
-	font-weight: bold;
-	letter-spacing: 3px;
+	font-weight: normal;
+	letter-spacing: 2px;
 }
 .loading {
 	background: url('../img/ico_loading.gif') no-repeat center center;
@@ -195,7 +195,7 @@ main {
 	position: absolute;
 	left: 50%;
 	margin-left: -244px;
-	top: 17%;
+	top: 0%;
 	z-index: 100;
 	
 	width: 489px;
@@ -215,19 +215,27 @@ main {
 	background-image:url('../img/Createlogo_black.png');
 }
 
-.centerContent {
+.welcomeText {
 	position: relative;
-	width: 500px;
-	margin-left: -250px;
+	width: 489px;
+	margin-left: -244px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.4);
+	text-transform:uppercase;
 }
-#welcome {
-	color: #000;
-	background-color: rgba(255,255,255,0.4);
-	padding: 20px 35px ;
+.welcomeText h2 {
+	padding:   20px ;
+	text-align: center;
+	color: #fff;
+	font-size: 19pt;
+	font-weight: normal;
+}
+.welcomeText p {
+	padding: 20px 65px 20px 65px ;
 	margin-bottom: 12px;
 	text-align: center;
 	font-weight: bold;
-	font-size: 13px;
+	font-size: 13pt;
 }
 
 
@@ -344,12 +352,9 @@ main {
 #slide-1 .bcg {background-image:url('../img/bg1.png')}
 #slide-1 .logo {  }
 #slide-1 .hsContent {
-	top: 60%;
+	top: 383px;
 }
 #slide-1 h2 {
-	text-align: center;
-	color: #fff;
-	text-shadow: 1px 0px 0px black;
 }
 
 /* Slide 2 */
@@ -360,7 +365,6 @@ main {
 #slide-2 h2 {
 	text-align: center;
 	color: #000;
-	text-shadow: 1px 0px 0px white;
 }
 
 /* Slide 3 */
