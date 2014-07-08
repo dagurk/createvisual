@@ -215,6 +215,19 @@ main {
 	background-image:url('../img/Createlogo_black.png');
 }
 
+.whiteLogo {
+	position: fixed;
+	left: 50%;
+	margin-left: -84px;
+	top: 0;
+	z-index: 100;
+	
+	width: 168px;
+	height: 126px;
+	background-image:url('../img/Createlogo_white.png');
+}
+
+
 .welcomeText {
 	position: relative;
 	width: 489px;
@@ -244,10 +257,11 @@ main {
 
 
 #sponsorBox {
-	position: relative;
+	position: absolute;
 	width: 1020px;
+	height: 142px;
 	left: 50%;
-	top: 40%;
+	top: 75%;
 	margin-left: -509px;
 }
 	#sponsorBox  h2 {
@@ -259,19 +273,20 @@ main {
 		float: left;
 	}
 
-#vidBox {
+.vidBox {
 	position: relative;
 	width: 1020px;
 	left: 50%;
 	top: 32%;
 	margin-left: -509px;
 }
-	#vidBox  h2 {
+	.vidBox  h2 {
 		margin-bottom: 8px;
 	}
-	#vidBox .vContainer {
+	.vidBox .vContainer {
 		position: relative;
 		width: 253px;
+		height: 142px;
 		padding-right: 2px;
 		padding-bottom: 2px;
 		float: left;
@@ -283,18 +298,20 @@ main {
 			  transition: all 1s ease;
 
 	}
+	
+	
 
 .aboutLinkBox {
 	position: relative;
 	width: 1020px;
+	left: 50%;
+	top: 35%;
+	margin-left: -509px;
 	margin-bottom: 12px;
-	text-align: left;
-	font-weight: bold;
-	font-size: 13px;
 }
 
 	.aboutLinkRow {
-		background-color: rgba(255,255,255,0.4);
+		background-color: rgba(0,0,0,0.4);
 		position: relative;
 		width: 25%;
 		float: left;
@@ -302,12 +319,14 @@ main {
 		margin-top: 20px;
 	}
 	.aboutLinkRow a {
-		color: #000;
+		position: relative;
+		color: #fff;
 		display: block;
 		padding: 5px 0 5px 73px;
 		text-decoration: none;
-		font-size: 20px;
+		font-size: 18pt;
 		font-weight: bold;
+		text-transform: uppercase;
 	}
 
 /* classes for number overlay (videos) */
