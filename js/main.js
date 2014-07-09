@@ -56,5 +56,14 @@
 	    
 	}
 	
+	$(window).scroll(function (event) {
+		var y = $(this).scrollTop();
+		if (y >= 1) {
+			$('.logo').animate().addClass('smallerLogo');
+		}	
+		else {
+			$('.logo').animate().removeClass('smallerLogo');
+		}
+	});
 		
 } )( jQuery );
