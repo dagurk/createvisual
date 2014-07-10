@@ -192,6 +192,18 @@ main {
 	}
 	
 .logo {
+	position: fixed;
+	left: 50%;
+	margin-left: -84px;
+	top: 0;
+	z-index: 100;
+	
+	width: 168px;
+	height: 126px;
+	background-image:url('../img/Createlogo_black.png');
+}
+
+.logoBigger {
 	position: absolute;
 	left: 50%;
 	margin-left: -244px;
@@ -202,6 +214,7 @@ main {
 	height: 367px;
 	background-image:url('../img/logo_big.png');	
 }
+
 	
 .smallerLogo {
 	position: fixed;
@@ -255,52 +268,6 @@ main {
 
 }
 
-
-#sponsorBox {
-	position: absolute;
-	width: 1020px;
-	height: 142px;
-	left: 50%;
-	top: 75%;
-	margin-left: -509px;
-}
-	#sponsorBox  h2 {
-		margin-bottom: 8px;
-	}
-	#sponsorBox .sContainer {
-		width: 253px;
-		padding-right: 2px;
-		float: left;
-	}
-
-.vidBox {
-	position: relative;
-	width: 1020px;
-	left: 50%;
-	top: 32%;
-	margin-left: -509px;
-}
-	.vidBox  h2 {
-		margin-bottom: 8px;
-	}
-	.vidBox .vContainer {
-		position: relative;
-		width: 253px;
-		height: 142px;
-		padding-right: 2px;
-		padding-bottom: 2px;
-		float: left;
-		
-	  -webkit-transition: all 1s ease;
-		 -moz-transition: all 1s ease;
-		   -o-transition: all 1s ease;
-		  -ms-transition: all 1s ease;
-			  transition: all 1s ease;
-
-	}
-	
-	
-
 .aboutLinkBox {
 	position: relative;
 	width: 1020px;
@@ -308,6 +275,7 @@ main {
 	top: 35%;
 	margin-left: -509px;
 	margin-bottom: 12px;
+	
 }
 
 	.aboutLinkRow {
@@ -324,18 +292,71 @@ main {
 		display: block;
 		padding: 5px 0 5px 73px;
 		text-decoration: none;
-		font-size: 18pt;
-		font-weight: bold;
+		font-size: 17pt;
+		font-weight: normal;
 		text-transform: uppercase;
 	}
 
+#sponsors { 
+	position: absolute;
+	width: 1024px;
+	height: 172px;
+	left: 50%;
+	top: 70%;
+	margin-left: -509px;
+ }
+
+#sponsorBox {
+	position: absolute;
+	width: 1020px;
+	height: 142px;
+	left: 50%;
+	top: 75%;
+	margin-left: -509px;
+}
+	#sponsorBox  h2 {
+		margin-bottom: 8px;
+		text-transform: uppercase;
+	}
+	#sponsorBox .sContainer {
+		width: 253px;
+		padding-right: 2px;
+		float: left;
+	}
+
+.vidBox {
+	position: relative;
+	width: 1024px;
+	left: 50%;
+	top: 32%;
+	margin-left: -510px;
+}
+	.vidBox  h2 {
+		margin-bottom: 8px;
+	}
+	.vidBox .vContainer {
+		position: relative;
+		width: 254px;
+		height: 142px;
+		padding-right: 2px;
+		padding-bottom: 2px;
+		float: left;
+		
+	  -webkit-transition: all 1s ease;
+		 -moz-transition: all 1s ease;
+		   -o-transition: all 1s ease;
+		  -ms-transition: all 1s ease;
+			  transition: all 1s ease;
+
+	}
+	
 /* classes for number overlay (videos) */
 .vContainer .n { 
 	z-index: 10; 
 	position: absolute; 
 	top: 0; 
 	left: 0; 
-	width: 253px; 
+	width: 254px; 
 	height: 142px; 
 }
 
@@ -361,7 +382,7 @@ main {
 	position: absolute;
 	top: 0;
 	left: 0; 
-	width: 253px; 
+	width: 254px; 
 	height: 142px;
 	background: #000;
 	opacity:0.6;
@@ -403,8 +424,7 @@ main {
 	#slide-3 h2 {
 		text-align: center;
 		color: #fff;
-		text-shadow: 1px 0px 0px black;
-
+		text-transform: uppercase;
 	}
 
 
