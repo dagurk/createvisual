@@ -58,7 +58,7 @@
 			});
 	 
 			// Resize our slides
-			$slide.height(winH+50);
+			$slide.height(winH+70);
 	 
 			s.refresh($('.homeSlide'));
 	 
