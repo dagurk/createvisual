@@ -398,6 +398,7 @@ main {
 	height: 142px; 
 }
 
+.vContainer .n06 { background: url(../img/n/06.png) center no-repeat; }
 .vContainer .n07 { background: url(../img/n/07.png) center no-repeat; }
 .vContainer .n09 { background: url(../img/n/09.png) center no-repeat; }
 .vContainer .n11 { background: url(../img/n/11.png) center no-repeat; }
