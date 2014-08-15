@@ -112,7 +112,7 @@ body, html {
 	background-color: #000000;
 }
 body {
-	
+	color: #fff;
 }
 .no-js {
 	padding-top: 106px;
@@ -121,8 +121,8 @@ h2 {
 	font-family: 'Open Sans', sans-serif;
 	margin-top: 0;
 
-	color: #fff8de;
-	font-size: 18pt;
+	color: #fff;
+	font-size: 20pt;
 	margin-bottom: 0px;
 	font-weight: extra-bold;
 	letter-spacing: 2px;
@@ -165,67 +165,32 @@ main {
 	height: 100%;
 	overflow: hidden;
 	position: relative;
+	text-align: center;
 }
 
 .hsContent {
-	min-width: 1024px;
-	position: absolute;
+	max-width: 1024px;
+	position: relative;
 	left: 50%;
 	top: 50%;
 }
 	.hsContent h2  {
-		
-		color: #fff8de;
-		font-size: 16px;
-		margin-bottom: 0px;
-		
-		font-weight: bold;
-		letter-spacing: 3px;
-		
-	}
-	.hsContent p {
-	}
-	.hsContent a {
-		color: #b2b2b2;
-		text-decoration: underline;
-	}
-
-
-/* Medium devices (tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}	
-
-/* Slide 1 */
-#slide-1 .bcg {background-image:url('../img/bg1.png')}
-#slide-1 .hsContent {
-	top: 40%;
-}
-#slide-1 h2 {
-}
-
-/* Slide 2 */
-#slide-2 .bcg {background-image:url('../img/bg2_1000.png')}
-#slide-2 .hsContent {
-	top: 10%;
-}
-#slide-2 h2 {
-	text-align: center;
-	color: #fff;
-	font-weight: bold;
-	font-size: 20pt;
-}
-
-/* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/bg3_1100.png')}
-#slide-3 .hsContent {
-	top: 20%;
-}
-	#slide-3 h2 {
 		text-align: center;
 		color: #fff;
-		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 20pt;
+		margin-bottom: 0px;
+		letter-spacing: 3px;
 	}
+
+#slide-1 .bcg {background-image:url('../img/bg1.png')}
+#slide-1 .hsContent { top: 40%; }
+
+#slide-2 .bcg {background-image:url('../img/bg2_1000.png')}
+#slide-2 .hsContent { top: 20%; }
+
+#slide-3 .bcg {background-image:url('../img/bg3_1100.png')}
+#slide-3 .hsContent { top: 20%; }
 
 
 .logo {
@@ -282,92 +247,62 @@ main {
 	position: relative;
 	width: 489px;
 	margin-left: -244px;
-	color: #fff;
 	background-color: rgba(0,0,0,0.6);
 	text-transform:uppercase;
 }
-.welcomeText h2 {
-	padding: 50px 10px 0 10px ;
-	margin: 0;
-	text-align: center;
-	color: #fff;
-	font-size: 20pt;
-	font-weight: extra-bold;
-	letter-spacing: 0px;
-	line-height: 60%;
-}
-.welcomeText p {
-	padding: 0 40px 40px 40px ;
-	margin-bottom: 12px;
-	text-align: center;
-	font-size: 16pt;
-	letter-spacing: 1px;
-
-}
+	.welcomeText h2 {
+		padding: 50px 10px 0 10px;
+		margin: 0;
+		font-size: 20pt;
+		font-weight: extra-bold;
+		letter-spacing: 0px;
+		line-height: 60%;
+	}
+	.welcomeText p {
+		padding: 0 40px 40px 40px ;
+		margin-bottom: 12px;
+		text-align: center;
+		font-size: 16pt;
+		letter-spacing: 1px;
+	}
 
 .aboutLinkBox {
 	position: relative;
 	width: 1024px;
-	left: 50%;
-	top: 35%;
-	margin-left: -509px;
-	margin-bottom: 12px;
-	
+	margin-left: -510px;
 }
 
 	.aboutLinkRow {
-		background-color: rgba(0,0,0,0.4);
 		position: relative;
-		width: 25%;
-		float: left;
 		padding: 20px 0;
 		margin-top: 20px;
 	}
-	.aboutLinkRow a {
+	.aboutLinkBox a {
+		background-color: rgba(0,0,0,0.4);
+		text-align: left;
 		position: relative;
 		color: #fff;
 		display: block;
-		padding: 5px 0 5px 73px;
+		padding: 25px 0 25px 73px;
+		margin: 0;
+		width: 183px;
+		float: left;
 		text-decoration: none;
 		font-size: 17pt;
 		font-weight: normal;
 		text-transform: uppercase;
 	}
-	.aboutLinkRow a.tight { letter-spacing: -1px;   }
+	.aboutLinkBox a.tight { letter-spacing: -1px;   }
 
-#sponsors { 
-	position: absolute;
-	width: 1024px;
-	height: 172px;
-	left: 50%;
-	top: 70%;
-	margin-left: -509px;
- }
-
-#sponsorBox {
-	position: absolute;
-	width: 1020px;
-	height: 142px;
-	left: 50%;
-	top: 75%;
-	margin-left: -509px;
+#sponsors {
+	clear: both;
+	padding-top: 50px;
 }
-	#sponsorBox  h2 {
-		margin-bottom: 8px;
-		text-transform: uppercase;
-	}
-	#sponsorBox .sContainer {
-		width: 253px;
-		padding-right: 2px;
-		float: left;
-	}
 
 .vidBox {
-	position: relative;
 	width: 1024px;
-	left: 50%;
-	top: 32%;
 	margin-left: -510px;
+	overflow: hidden;
 }
 	.vidBox  h2 {
 		margin-bottom: 8px;
@@ -447,6 +382,66 @@ main {
 	text-transform: uppercase;
 }
 
+
+/* Responsive classes */
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+	.logo {
+		position: absolute;
+	}
+
+	#slide-1 .bcg {background: none;}
+	#slide-1 .hsContent { top: 20%; }
+
+	#slide-2 .bcg {background: none;}
+	#slide-2 .hsContent { top: 0%; }
+
+	#slide-3 .bcg {background: none;}
+	#slide-3 .hsContent { top: 30%; }
+
+
+	body {
+		background: url('../img/bg1.png') fixed;
+	}
+
+	.hsContainer {
+		width: 512px;
+		padding-left: 10px;
+		min-height: 768px;
+		height: 100%;
+		overflow: visible;
+		position: relative;
+		text-align: center;
+	}
+
+
+	.hsContent {
+		width: 512px;
+		position: relative;
+	}
+		.hsContent h2  {
+			
+			font-size: 15pt;
+			
+		}
+
+	.vidBox {
+		width: 512px;
+		margin-left: -256px;
+	}
+
+	.aboutLinkBox {
+		position: relative;
+		width: 512px;
+		margin-left: -256px;
+	}
+		.aboutLinkBox a {
+		}
+	
+
+}
 
 /* ==========================================================================
    Helper classes
