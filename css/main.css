@@ -274,7 +274,7 @@ main {
 
 	.aboutLinkRow {
 		position: relative;
-		padding: 20px 0;
+		padding: 10px 0;
 		margin-top: 20px;
 	}
 	.aboutLinkBox a {
@@ -283,7 +283,7 @@ main {
 		position: relative;
 		color: #fff;
 		display: block;
-		padding: 25px 0 25px 73px;
+		padding: 15px 0 15px 73px;
 		margin: 0;
 		width: 183px;
 		float: left;
@@ -388,10 +388,21 @@ main {
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
 
+	section {
+		min-width: 512px;
+	}
 	.logo {
 		position: absolute;
 	}
 
+	.welcomeText h2 {
+		font-size: 16pt;
+	}
+	.welcomeText p {
+		font-size: 13pt;
+	}
+
+	
 	#slide-1 .bcg {background: none;}
 	#slide-1 .hsContent { top: 20%; }
 
@@ -399,19 +410,18 @@ main {
 	#slide-2 .hsContent { top: 0%; }
 
 	#slide-3 .bcg {background: none;}
-	#slide-3 .hsContent { top: 30%; }
+	#slide-3 .hsContent { top: 30%; height: 1400px; }
 
 
 	body {
-		background: url('../img/bg1.png') fixed;
+		background: url('../img/bg1.png') no-repeat fixed center;
 	}
 
 	.hsContainer {
-		width: 512px;
+		width: 100%;
 		padding-left: 10px;
 		min-height: 768px;
-		height: 100%;
-		overflow: visible;
+		overflow: hidden;
 		position: relative;
 		text-align: center;
 	}
@@ -439,7 +449,6 @@ main {
 	}
 		.aboutLinkBox a {
 		}
-	
 
 }
 
