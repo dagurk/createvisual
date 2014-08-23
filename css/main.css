@@ -415,6 +415,7 @@ main {
 
 	body {
 		background: url('../img/bg1.png') no-repeat fixed center;
+		background-size: cover;
 	}
 
 	.hsContainer {
